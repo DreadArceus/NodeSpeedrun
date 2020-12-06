@@ -1,0 +1,24 @@
+body
+{
+    background-color: grey;
+}
+.logo
+{
+    /* Center the logo */
+    display: block;
+    margin: auto;
+    /* Resize the logo */
+    height: 69px;
+    width: 69px;
+}
+#send-container
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+}
+#messageInp
+{
+    width: 900px;
+}
