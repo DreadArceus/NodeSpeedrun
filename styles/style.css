@@ -3,6 +3,10 @@ body {
   background-image: linear-gradient(white, rgb(87, 148, 223));
 }
 
+h1 {
+  text-align: center;
+}
+
 .logo {
   /* Center the logo */
   display: block;
@@ -47,6 +51,10 @@ body {
   margin: auto;
   text-align: center;
   width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
 }
 
 #messageInp {
@@ -61,4 +69,6 @@ body {
   border: 2px solid black;
   border-radius: 4px;
   height: 34px;
+  width: 75px;
+  margin-left: 5px;
 }
