@@ -22,4 +22,8 @@ io.on("connection", (socket) => {
       name: users[socket.id],
     });
   });
+
+  socket.on("disconnect", (reason) => {
+    socket.broadcast.emit("user-left", users[socket.id]);
+  });
 });

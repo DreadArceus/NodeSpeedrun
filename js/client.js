@@ -30,3 +30,7 @@ socket.on("recieve", (data) => {
 socket.on("user-joined", (name) => {
   append(`${name} just joined`, "left");
 });
+
+socket.on("user-left", (name) => {
+  append(`${name} has left the chat.`, "left");
+});
